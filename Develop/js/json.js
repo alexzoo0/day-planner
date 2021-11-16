@@ -44,6 +44,130 @@ function workCalendar() {
         saveId();
 
         
+        let saveButton1 = $("#saveBtn-Id-1");
+        let saveButton2 = $("#saveBtn-Id-2");
+        let saveButton3 = $("#saveBtn-Id-3");
+        let saveButton4 = $("#saveBtn-Id-4");
+        let saveButton5 = $("#saveBtn-Id-5");
+        let saveButton6 = $("#saveBtn-Id-6");
+        let saveButton7 = $("#saveBtn-Id-7");
+        let saveButton8 = $("#saveBtn-Id-8");
+        let saveButton9 = $("#saveBtn-Id-9");
+        let saveButton10 = $("#saveBtn-Id-10");
+        let saveButton11 = $("#saveBtn-Id-11");
+        let saveButton12 = $("#saveBtn-Id-12");
+
+        let input1 = $("#input-field-1");
+        let input2 = $("#input-field-2");
+        let input3 = $("#input-field-3");
+        let input4 = $("#input-field-4");
+        let input5 = $("#input-field-5");
+        let input6 = $("#input-field-6");
+        let input7 = $("#input-field-7");
+        let input8 = $("#input-field-8");
+        let input9 = $("#input-field-9");
+        let input10 = $("#input-field-10");
+        let input11 = $("#input-field-11");
+        let input12 = $("#input-field-12");
+        
+
+
+
+        $(saveButton1).on("click", function (event) {
+            event.preventDefault();
+            let input1 = $("#input-field-1").val().trim();
+            localStorage.setItem("toDo1", (input1));
+        });
+        let saveInput1 = (localStorage.getItem("toDo1"));
+        input1.val(saveInput1);
+
+        $(saveButton2).on("click", function (event) {
+            event.preventDefault();
+            let input2 = $("#input-field-2").val().trim();
+            localStorage.setItem("toDo2", (input2));
+        });
+        let saveInput2 = (localStorage.getItem("toDo2"));
+        input2.val(saveInput2);
+
+        $(saveButton3).on("click", function (event) {
+            event.preventDefault();
+            let input3 = $("#input-field-3").val().trim();
+            localStorage.setItem("toDo3", (input3));
+        });
+        let saveInput3 = (localStorage.getItem("toDo3"));
+        input3.val(saveInput3);
+
+        $(saveButton4).on("click", function (event) {
+            event.preventDefault();
+            let input4 = $("#input-field-4").val().trim();
+            localStorage.setItem("toDo4", (input4));
+        });
+        let saveInput4 = (localStorage.getItem("toDo4"));
+        input4.val(saveInput4);
+
+        $(saveButton5).on("click", function (event) {
+            event.preventDefault();
+            let input5 = $("#input-field-5").val().trim();
+            localStorage.setItem("toDo5", (input5));
+        });
+        let saveInput5 = (localStorage.getItem("toDo5"));
+        input5.val(saveInput5);
+
+        $(saveButton6).on("click", function (event) {
+            event.preventDefault();
+            let input6 = $("#input-field-6").val().trim();
+            localStorage.setItem("toDo6", (input6));
+        });
+        let saveInput6 = (localStorage.getItem("toDo6"));
+        input6.val(saveInput6);
+
+        $(saveButton7).on("click", function (event) {
+            event.preventDefault();
+            let input7 = $("#input-field-7").val().trim();
+            localStorage.setItem("toDo7", (input7));
+        });
+        let saveInput7 = (localStorage.getItem("toDo7"));
+        input7.val(saveInput7);
+
+        $(saveButton8).on("click", function (event) {
+            event.preventDefault();
+            let input8 = $("#input-field-8").val().trim();
+            localStorage.setItem("toDo8", (input8));
+        });
+        let saveInput8 = (localStorage.getItem("toDo8"));
+        input8.val(saveInput8);
+
+        $(saveButton9).on("click", function (event) {
+            event.preventDefault();
+            let input9 = $("#input-field-9").val().trim();
+            localStorage.setItem("toDo9", (input9));
+        });
+        let saveInput9 = (localStorage.getItem("toDo9"));
+        input9.val(saveInput9);
+
+        $(saveButton10).on("click", function (event) {
+            event.preventDefault();
+            let input10 = $("#input-field-10").val().trim();
+            localStorage.setItem("toDo10", (input10));
+        });
+        let saveInput10 = (localStorage.getItem("toDo10"));
+        input10.val(saveInput10);
+
+        $(saveButton11).on("click", function (event) {
+            event.preventDefault();
+            let input11 = $("#input-field-11").val().trim();
+            localStorage.setItem("toDo11", (input11));
+        });
+        let saveInput11 = (localStorage.getItem("toDo11"));
+        input11.val(saveInput11);
+
+        $(saveButton12).on("click", function (event) {
+            event.preventDefault();
+            let input12 = $("#input-field-12").val().trim();
+            localStorage.setItem("toDo12", (input12));
+        });
+        let saveInput12 = (localStorage.getItem("toDo12"));
+        input12.val(saveInput12);
     
     });
 };
