@@ -168,6 +168,137 @@ function workCalendar() {
         });
         let saveInput12 = (localStorage.getItem("toDo12"));
         input12.val(saveInput12);
+
+
+        let today = new Date().getHours();
+        if (today > 6) {
+            $("#input-field-0").addClass("past");
+        }else if (today >= 6 && today < 7) {
+            $("#input-field-0").addClass("present");
+        }else if (today < 6) {
+            $("#input-field-0").addClass("future");
+        }
+
+       
+        if (today > 7) {
+            $("#input-field-1").addClass("past");
+        }else if (today >= 7 && today < 8) {
+            $("#input-field-1").addClass("present");
+        }else if (today < 7) {
+            $("#input-field-1").addClass("future");
+        }
+
+        if (today > 8) {
+            $("#input-field-2").addClass("past");
+        }else if (today >= 8 && today < 9) {
+            $("#input-field-2").addClass("present");
+        }else if (today < 8) {
+            $("#input-field-2").addClass("future");
+        }
+
+        if (today > 9) {
+            $("#input-field-3").addClass("past");
+        }else if (today >= 9 && today < 10) {
+            $("#input-field-3").addClass("present");
+        }else if (today < 9) {
+            $("#input-field-3").addClass("future");
+        }
+        
+        if (today > 10) {
+            $("#input-field-4").addClass("past");
+        }else if (today >= 10 && today < 11) {
+            $("#input-field-4").addClass("present");
+        }else if (today < 10) {
+            $("#input-field-4").addClass("future");
+        }
+
+        if (today > 11) {
+            $("#input-field-5").addClass("past");
+        }else if (today >= 11 && today < 12) {
+            $("#input-field-5").addClass("present");
+        }else if (today < 11) {
+            $("#input-field-5").addClass("future");
+        }
+
+        if (today > 12) {
+            $("#input-field-6").addClass("past");
+        }else if (today >= 12 && today < 13) {
+            $("#input-field-6").addClass("present");
+        }else if (today < 12) {
+            $("#input-field-6").addClass("future");
+        }
+
+        if (today > 13) {
+            $("#input-field-7").addClass("past");
+        }else if (today >= 13 && today < 14) {
+            $("#input-field-7").addClass("present");
+        }else if (today < 13) {
+            $("#input-field-7").addClass("future");
+        }
+
+        if (today > 14) {
+            $("#input-field-8").addClass("past");
+        }else if (today >= 14 && today < 15) {
+            $("#input-field-8").addClass("present");
+        }else if (today < 14) {
+            $("#input-field-8").addClass("future");
+        }
+        
+        if (today > 15) {
+            $("#input-field-9").addClass("past");
+        }else if (today >= 15 && today < 16) {
+            $("#input-field-9").addClass("present");
+        }else if (today < 15) {
+            $("#input-field-9").addClass("future");
+        }
+
+        if (today > 16) {
+            $("#input-field-10").addClass("past");
+        }else if (today >= 16 && today < 17) {
+            $("#input-field-10").addClass("present");
+        }else if (today < 16) {
+            $("#input-field-10").addClass("future");
+        }
+
+        if (today > 17) {
+            $("#input-field-11").addClass("past");
+        }else if (today >= 17 && today < 18) {
+            $("#input-field-11").addClass("present");
+        }else if (today < 17) {
+            $("#input-field-11").addClass("future");
+        }
+
+        if (today > 18) {
+            $("#input-field-12").addClass("past");
+        }else if (today >= 18 && today < 19) {
+            $("#input-field-12").addClass("present");
+        }else if (today < 18) {
+            $("#input-field-12").addClass("future");
+        }
+
+        if (today > 19) {
+            $("#input-field-13").addClass("past");
+        }else if (today >= 19 && today < 20) {
+            $("#input-field-13").addClass("present");
+        }else if (today < 19) {
+            $("#input-field-13").addClass("future");
+        }
+
+        if (today > 20) {
+            $("#input-field-14").addClass("past");
+        }else if (today >= 20 && today < 21) {
+            $("#input-field-14").addClass("present");
+        }else if (today < 20) {
+            $("#input-field-14").addClass("future");
+        }
+
+        if (today > 21) {
+            $("#input-field-15").addClass("past");
+        }else if (today >= 21 && today < 22) {
+            $("#input-field-15").addClass("present");
+        }else if (today < 21) {
+            $("#input-field-15").addClass("future");
+        }
     
     });
 };
