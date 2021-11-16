@@ -11,5 +11,5 @@ GIT PAGE LINK: https://alexzoo0.github.io/work-schedule/
 
 # images
 
-![Web screenshot](pic-1.png)
-![Web screenshot](pic-2.png)
+<img src="develop/img/pic-1.png" alt="image">
+<img src="develop/img/pic-2.png" alt="image">
